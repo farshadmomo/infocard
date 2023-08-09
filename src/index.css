@@ -36,6 +36,28 @@ body{
     font-size: 8px;
     margin-top:-8px;
 }
-.profile>button.btncontainer {
-
+.profile>div.btncontainer {
+    display: flex;
+    gap: 30px;
+}
+.profile>div.btncontainer>button {
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    padding-top: 5px;
+    gap: 5px;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+}
+.profile>div.btncontainer>button.mailbtn>i {
+    transform: scale(var(--ggs,0.6));
+}
+.profile>div.btncontainer>button.linkbtn {
+    background-color: cornflowerblue;
+    color: white;
+}
+.profile>div.btncontainer>button.linkbtn>i {
+    transform: scale(var(--ggs,0.6));
+    margin-top: 6px;
 }

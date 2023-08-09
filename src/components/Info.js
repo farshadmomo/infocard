@@ -7,8 +7,8 @@ export default function Info() {
         <p className='job'>Front-end developer</p>
         <p className='desc'>FarshadMomtaz's website</p>
         <div className='btncontainer'>
-            <button></button>
-            <button></button>
+            <button className='mailbtn'><i className="gg-mail"></i>Email</button>
+            <button className='linkbtn'><i className="gg-link"></i>Linkedin</button>
         </div>
     </div>
     )
