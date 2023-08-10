@@ -61,3 +61,14 @@ body{
     transform: scale(var(--ggs,0.6));
     margin-top: 6px;
 }
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about>h2 {
+    color: white;
+}
+.about>p {
+    color: white;
+}
