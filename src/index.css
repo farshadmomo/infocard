@@ -50,6 +50,9 @@ body{
     font-family: "Lucida Sans";
     font-weight: bold;
 }
+.profile>div.btncontainer>button:active {
+    box-shadow: 2px 2px 5px whitesmoke;
+}
 .profile>div.btncontainer>button.mailbtn>i {
     transform: scale(var(--ggs,0.6));
 }
@@ -61,14 +64,38 @@ body{
     transform: scale(var(--ggs,0.6));
     margin-top: 6px;
 }
-.about {
+.titleAbout {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.about>h2 {
+.titleAbout>h2 {
     color: white;
+    margin-top: 10px;
 }
-.about>p {
-    color: white;
+.titleAbout>p {
+    color: #ababab;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.socials>button {
+    width: 30px;
+    height: 30px;
+    background-color: #ababab;
+    border-radius: 5px;
+    border: unset;
+}
+.socials>button:active {
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.socials>button>i {
+    transform: scale(var(--ggs,0.9));
+    margin-left: -2px;
 }
