@@ -98,4 +98,5 @@ body{
 .socials>button>i {
     transform: scale(var(--ggs,0.9));
     margin-left: -2px;
+    color: #222225;
 }
