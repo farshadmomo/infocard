@@ -1,4 +1,4 @@
-import profileimg from "../images/profile1.jpg";
+// import profileimg from "../../public/images/profile1.jpg";
 
 export default function Interests() {
     return(
